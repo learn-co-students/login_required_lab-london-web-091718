@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
     get '/secret' => 'secrets#show'
+    get '/secret' => 'secrets#index'
     get 'sessions/new'
 
 
